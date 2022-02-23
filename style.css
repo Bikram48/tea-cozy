@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+header.header {
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+}
+
+.logo {
+    margin: 0 0 0 10px;
+    height: 50px;
+}
+
+.logo img {
+    height: inherit;
+}
+
+.header ul {
+    color: seashell;
+    font-size: 22px;
+    font-family: Helvetica;
+    opacity: 0.9;
+    display: flex;
+    gap: 20px;
+    flex-flow: row wrap;
+}
+
+.header ul li {
+    list-style: none;
+    text-decoration: underline;
+}
