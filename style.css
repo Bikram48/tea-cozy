@@ -9,7 +9,7 @@ body {
 }
 
 header.header {
-    height: 69px;
+    flex: 69px;
     display: flex;
     justify-content: space-between;
     align-items: center;
