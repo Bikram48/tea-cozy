@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+ html {
+     color: seashell;
+     font-size: 22px;
+     font-family: Helvetica;
+     opacity: 0.9;
+ }
 
 body {
     background-color: black;
@@ -26,10 +32,6 @@ header.header {
 }
 
 .header ul {
-    color: seashell;
-    font-size: 22px;
-    font-family: Helvetica;
-    opacity: 0.9;
     display: flex;
     gap: 20px;
     flex-flow: row wrap;
@@ -38,4 +40,29 @@ header.header {
 .header ul li {
     list-style: none;
     text-decoration: underline;
+}
+
+.container {
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    background: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.container .hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+}
+.showcase-text {
+    width: 1200px;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-around;
 }
